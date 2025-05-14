@@ -1,0 +1,5 @@
+# Ignore generated and local data
+data/
+*.mp4
+*.wav
+*.DS_Store
