@@ -18,3 +18,7 @@ def transcribe_audio(video_path):
     result = model.transcribe(audio_path)
     print(result["text"])
     return result["text"]
+
+if __name__ == "__main__":
+    text = transcribe_audio("sample_video.mp4")
+    print("\n\n📝 Final Transcript:\n", text)
