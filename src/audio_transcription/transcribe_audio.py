@@ -22,3 +22,6 @@ def transcribe_audio(video_path):
 if __name__ == "__main__":
     text = transcribe_audio("sample_video.mp4")
     print("\n\n📝 Final Transcript:\n", text)
+    # Save transcript to file for summarization
+    with open("data/transcript.txt", "w") as f:
+        f.write(text)    

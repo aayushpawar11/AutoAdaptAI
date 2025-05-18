@@ -1,5 +1,6 @@
 # Ignore generated and local data
 data/
+sample_video.mp4
 *.mp4
 *.wav
 *.DS_Store

@@ -4,3 +4,5 @@ git+https://github.com/openai/whisper.gitopencv-python
 torch
 torchvision
 Pillow
+torchtune
+transformers
